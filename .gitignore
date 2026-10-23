@@ -1,3 +1,6 @@
 node_modules/
 capture-failures.md
 .DS_Store
+scripts/
+package.json
+package-lock.json
