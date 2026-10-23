@@ -1,0 +1,1224 @@
+# Source of truth for the list. README.md and gallery/ are generated from this file.
+# Edit here, then run:  npm run build
+#
+# Entry fields:
+#   name, url, desc        required
+#   tags                   free | paid | react | vue | svelte | angular | any
+#   also                   extra links shown next to the name  [{name, url}]
+#   shot                   page to screenshot instead of `url`
+#   theme                  light (default) | dark  - colour scheme used for the capture
+#   wait                   extra ms to wait before capturing (slow animations)
+#   scroll                 px to scroll before capturing (skip a hero, show components)
+#   noshot                 true to skip the automatic screenshot
+#   refs                   more references for the gallery, any mix of:
+#                            {title, url}   captured automatically
+#                            {title, file}  a file you added under refs/  (png, jpg, webp, gif, svg, mp4, webm)
+#                            {title, link}  linked only (video, Dribbble shot, CodePen...)
+#   Files dropped into refs/<slug>/ are picked up automatically too (slug is printed by `npm run slugs`).
+
+sections:
+- title: Design Systems
+  groups:
+  - intro: Public design systems with guidelines, tokens and (usually) code. Great to study or adopt.
+    items:
+    - name: Material Design 3
+      url: https://m3.material.io
+      desc: Google's design system with dynamic color and expressive motion.
+      tags:
+      - free
+    - name: Apple Human Interface Guidelines
+      url: https://developer.apple.com/design/human-interface-guidelines
+      desc: Platform design guidance from Apple.
+      tags:
+      - free
+    - name: Fluent 2
+      url: https://fluent2.microsoft.design
+      desc: Microsoft's cross-platform design system.
+      tags:
+      - free
+    - name: Carbon
+      url: https://carbondesignsystem.com
+      desc: IBM's open-source system for products and digital experiences.
+      tags:
+      - free
+    - name: Atlassian Design System
+      url: https://atlassian.design
+      desc: Foundations, tokens and components behind Jira and Confluence.
+      tags:
+      - free
+    - name: Primer
+      url: https://primer.style
+      desc: GitHub's design system.
+      tags:
+      - free
+    - name: Ant Design
+      url: https://ant.design
+      desc: Enterprise-class design language with a large React implementation.
+      tags:
+      - free
+    - name: Spectrum
+      url: https://spectrum.adobe.com
+      desc: Adobe's design system (React Spectrum, Spectrum Web Components).
+      tags:
+      - free
+    - name: Geist
+      url: https://vercel.com/geist
+      desc: Vercel's minimal design system and typeface.
+      tags:
+      - free
+    - name: Gestalt
+      url: https://gestalt.pinterest.systems
+      desc: Pinterest's design system.
+      tags:
+      - free
+    - name: Base Web
+      url: https://baseweb.design
+      desc: Uber's design system.
+      tags:
+      - free
+    - name: Elastic UI (EUI)
+      url: https://eui.elastic.co
+      desc: Elastic's design system for data-rich apps.
+      tags:
+      - free
+    - name: Salesforce Lightning
+      url: https://www.lightningdesignsystem.com
+      desc: Enterprise system from Salesforce.
+      tags:
+      - free
+    - name: GOV.UK Design System
+      url: https://design-system.service.gov.uk
+      desc: Gold standard for accessible public-service UI.
+      tags:
+      - free
+    - name: U.S. Web Design System
+      url: https://designsystem.digital.gov
+      desc: Accessible components for U.S. government sites.
+      tags:
+      - free
+- title: Styling Foundations
+  groups:
+  - items:
+    - name: Tailwind CSS
+      url: https://tailwindcss.com
+      desc: Utility-first CSS framework; the base layer of most modern kits.
+      tags:
+      - free
+      - any
+    - name: daisyUI
+      url: https://daisyui.com
+      desc: Semantic component classes and themes on top of Tailwind.
+      tags:
+      - free
+      - any
+    - name: UnoCSS
+      url: https://unocss.dev
+      desc: Instant on-demand atomic CSS engine.
+      tags:
+      - free
+      - any
+    - name: Panda CSS
+      url: https://panda-css.com
+      desc: Build-time CSS-in-JS with tokens and recipes.
+      tags:
+      - free
+      - any
+    - name: StyleX
+      url: https://stylexjs.com
+      desc: Meta's compile-time styling system.
+      tags:
+      - free
+      - react
+    - name: vanilla-extract
+      url: https://vanilla-extract.style
+      desc: Zero-runtime, type-safe stylesheets in TypeScript.
+      tags:
+      - free
+      - any
+    - name: Open Props
+      url: https://open-props.style
+      desc: Supercharged CSS custom properties (sizes, easings, shadows).
+      tags:
+      - free
+      - any
+    - name: Pico CSS
+      url: https://picocss.com
+      desc: Minimal CSS for semantic HTML.
+      tags:
+      - free
+      - any
+    - name: Bootstrap
+      url: https://getbootstrap.com
+      desc: The classic responsive component framework.
+      tags:
+      - free
+      - any
+    - name: Bulma
+      url: https://bulma.io
+      desc: Modern, Flexbox-based CSS framework.
+      tags:
+      - free
+      - any
+- title: Headless Primitives
+  groups:
+  - intro: Unstyled, accessible building blocks — the layer you build your own design system on.
+    items:
+    - name: Radix Primitives
+      url: https://www.radix-ui.com/primitives
+      desc: Accessible unstyled React primitives; the original foundation of shadcn/ui.
+      tags:
+      - free
+      - react
+    - name: Base UI
+      url: https://base-ui.com
+      desc: Unstyled components from the creators of Radix, Floating UI and MUI.
+      tags:
+      - free
+      - react
+    - name: React Aria
+      url: https://react-spectrum.adobe.com/react-aria/
+      desc: Adobe's hooks and components with best-in-class accessibility and i18n.
+      tags:
+      - free
+      - react
+    - name: Headless UI
+      url: https://headlessui.com
+      desc: Unstyled components from the Tailwind team (React & Vue).
+      tags:
+      - free
+      - react
+      - vue
+    - name: Ark UI
+      url: https://ark-ui.com
+      desc: Headless components for React, Vue, Solid and Svelte, powered by Zag.
+      tags:
+      - free
+      - any
+    - name: Zag
+      url: https://zagjs.com
+      desc: Framework-agnostic UI component state machines.
+      tags:
+      - free
+      - any
+    - name: Ariakit
+      url: https://ariakit.org
+      desc: Lightweight, accessible React primitives.
+      tags:
+      - free
+      - react
+    - name: Reka UI
+      url: https://reka-ui.com
+      desc: Vue port of the Radix model (formerly Radix Vue).
+      tags:
+      - free
+      - vue
+    - name: Bits UI
+      url: https://bits-ui.com
+      desc: Headless components for Svelte.
+      tags:
+      - free
+      - svelte
+    - name: Melt UI
+      url: https://melt-ui.com
+      desc: Headless builders for Svelte.
+      tags:
+      - free
+      - svelte
+    - name: Kobalte
+      url: https://kobalte.dev
+      desc: Accessible headless components for SolidJS.
+      tags:
+      - free
+    - name: Floating UI
+      url: https://floating-ui.com
+      desc: Positioning engine for tooltips, popovers and dropdowns.
+      tags:
+      - free
+      - any
+    - name: TanStack Table / Virtual / Form
+      url: https://tanstack.com/table
+      desc: Headless table, virtualization and form logic.
+      also:
+      - name: Virtual
+        url: https://tanstack.com/virtual
+      - name: Form
+        url: https://tanstack.com/form
+      tags:
+      - free
+      - any
+- title: Component Libraries
+  groups:
+  - title: React
+    items:
+    - name: MUI (Material UI)
+      url: https://mui.com
+      desc: Comprehensive Material Design components plus MUI X data grid and pickers.
+      tags:
+      - free
+      - paid
+      - react
+    - name: Mantine
+      url: https://mantine.dev
+      desc: 100+ components and hooks with excellent DX.
+      tags:
+      - free
+      - react
+    - name: Chakra UI
+      url: https://chakra-ui.com
+      desc: Accessible, themeable components (v3 built on Ark UI).
+      tags:
+      - free
+      - react
+    - name: HeroUI
+      url: https://heroui.com
+      desc: Beautiful Tailwind-based components (formerly NextUI).
+      tags:
+      - free
+      - react
+    - name: Ant Design
+      url: https://ant.design
+      desc: Enterprise component suite.
+      tags:
+      - free
+      - react
+    - name: React Spectrum
+      url: https://react-spectrum.adobe.com
+      desc: Adobe's styled implementation of Spectrum.
+      tags:
+      - free
+      - react
+    - name: Fluent UI React
+      url: https://react.fluentui.dev
+      desc: Microsoft's Fluent 2 components.
+      tags:
+      - free
+      - react
+    - name: Blueprint
+      url: https://blueprintjs.com
+      desc: Toolkit for complex, data-dense desktop-style apps.
+      tags:
+      - free
+      - react
+    - name: PrimeReact
+      url: https://primereact.org
+      desc: 90+ components with themes and a styled/unstyled mode.
+      tags:
+      - free
+      - paid
+      - react
+    - name: Park UI
+      url: https://park-ui.com
+      desc: Styled components built on Ark UI and Panda/Tailwind.
+      tags:
+      - free
+      - react
+    - name: Tremor
+      url: https://tremor.so
+      desc: Components for dashboards and analytics.
+      tags:
+      - free
+      - react
+    - name: Untitled UI React
+      url: https://www.untitledui.com/react
+      desc: Large Figma kit with matching React components.
+      tags:
+      - free
+      - paid
+      - react
+  - title: Copy-Paste & Registries (shadcn ecosystem)
+    intro: You copy the source into your project and own it.
+    items:
+    - name: shadcn/ui
+      url: https://ui.shadcn.com
+      desc: The copy-paste standard; Tailwind + Radix or Base UI, with a registry/CLI ecosystem.
+      tags:
+      - free
+      - react
+      refs:
+      - title: Blocks
+        url: https://ui.shadcn.com/blocks
+      - title: Charts
+        url: https://ui.shadcn.com/charts
+    - name: Kibo UI
+      url: https://www.kibo-ui.com
+      desc: Advanced composable shadcn components (kanban, gantt, editor…).
+      tags:
+      - free
+      - react
+    - name: Cult UI
+      url: https://www.cult-ui.com
+      desc: Stylish shadcn-compatible components and blocks.
+      tags:
+      - free
+      - react
+    - name: Origin UI
+      url: https://originui.com
+      desc: Large collection of shadcn-style components.
+      tags:
+      - free
+      - react
+    - name: 21st.dev
+      url: https://21st.dev
+      desc: Community registry of shadcn-compatible components.
+      tags:
+      - free
+      - react
+    - name: tweakcn
+      url: https://tweakcn.com
+      desc: Visual theme editor for shadcn/ui.
+      tags:
+      - free
+      - react
+    - name: Tailwind Plus
+      url: https://tailwindcss.com/plus
+      desc: Official Tailwind UI blocks, templates and Catalyst kit.
+      tags:
+      - paid
+      - react
+      - vue
+    - name: Flowbite
+      url: https://flowbite.com
+      desc: Tailwind components with React, Vue, Svelte and Angular ports.
+      tags:
+      - free
+      - paid
+      - any
+    - name: Preline UI
+      url: https://preline.co
+      desc: Open-source Tailwind components and blocks.
+      tags:
+      - free
+      - paid
+      - any
+    - name: HyperUI
+      url: https://www.hyperui.dev
+      desc: Free Tailwind component snippets.
+      tags:
+      - free
+      - any
+  - title: Animated Component Collections
+    intro: Motion-first components for landing pages and delightful UIs.
+    items:
+    - name: Magic UI
+      url: https://magicui.design
+      desc: 150+ animated components (marquees, bento grids, shimmer buttons) for shadcn projects.
+      tags:
+      - free
+      - paid
+      - react
+      refs:
+      - title: Component showcase
+        url: https://magicui.design/docs/components
+    - name: Aceternity UI
+      url: https://ui.aceternity.com
+      desc: 'Dramatic effects: 3D cards, spotlights, animated backgrounds.'
+      tags:
+      - free
+      - paid
+      - react
+      refs:
+      - title: Component catalogue
+        url: https://ui.aceternity.com/components
+    - name: React Bits
+      url: https://reactbits.dev
+      desc: 110+ animated text, background and interactive components; no single engine lock-in.
+      tags:
+      - free
+      - react
+      refs:
+      - title: Text animations
+        url: https://reactbits.dev/text-animations/split-text
+    - name: Motion Primitives
+      url: https://motion-primitives.com
+      desc: Animated building blocks built on Motion.
+      tags:
+      - free
+      - react
+    - name: Animate UI
+      url: https://animate-ui.com
+      desc: Animated shadcn-style components.
+      tags:
+      - free
+      - react
+    - name: Animata
+      url: https://animata.design
+      desc: Hand-crafted interaction animations.
+      tags:
+      - free
+      - react
+    - name: Eldora UI
+      url: https://www.eldoraui.site
+      desc: Free animated component set.
+      tags:
+      - free
+      - react
+    - name: Kokonut UI
+      url: https://kokonutui.com
+      desc: Modern animated components and blocks.
+      tags:
+      - free
+      - paid
+      - react
+    - name: Skiper UI
+      url: https://skiper-ui.com
+      desc: Polished interaction components.
+      tags:
+      - free
+      - paid
+      - react
+    - name: Inspira UI
+      url: https://inspira-ui.com
+      desc: Animated components for Vue/Nuxt.
+      tags:
+      - free
+      - vue
+    - name: Uiverse
+      url: https://uiverse.io
+      desc: Community-made pure CSS/Tailwind elements.
+      tags:
+      - free
+      - any
+  - title: Vue
+    items:
+    - name: Nuxt UI
+      url: https://ui.nuxt.com
+      desc: Tailwind + Reka UI components for Vue and Nuxt.
+      tags:
+      - free
+      - vue
+    - name: shadcn-vue
+      url: https://www.shadcn-vue.com
+      desc: Vue port of shadcn/ui.
+      tags:
+      - free
+      - vue
+    - name: Vuetify
+      url: https://vuetifyjs.com
+      desc: Material Design component framework.
+      tags:
+      - free
+      - vue
+    - name: PrimeVue
+      url: https://primevue.org
+      desc: Rich component suite with styled/unstyled modes.
+      tags:
+      - free
+      - vue
+    - name: Naive UI
+      url: https://www.naiveui.com
+      desc: Themeable TypeScript components.
+      tags:
+      - free
+      - vue
+    - name: Element Plus
+      url: https://element-plus.org
+      desc: Vue 3 desktop UI library.
+      tags:
+      - free
+      - vue
+    - name: Quasar
+      url: https://quasar.dev
+      desc: Build web, mobile and desktop from one Vue codebase.
+      tags:
+      - free
+      - vue
+  - title: Svelte
+    items:
+    - name: shadcn-svelte
+      url: https://www.shadcn-svelte.com
+      desc: Svelte port of shadcn/ui built on Bits UI.
+      tags:
+      - free
+      - svelte
+    - name: Skeleton
+      url: https://www.skeleton.dev
+      desc: Adaptive design system for Svelte + Tailwind.
+      tags:
+      - free
+      - svelte
+    - name: Flowbite Svelte
+      url: https://flowbite-svelte.com
+      desc: Flowbite components for Svelte.
+      tags:
+      - free
+      - svelte
+  - title: Angular
+    items:
+    - name: Angular Material
+      url: https://material.angular.dev
+      desc: Official Material components and CDK.
+      tags:
+      - free
+      - angular
+    - name: Spartan
+      url: https://www.spartan.ng
+      desc: shadcn-style copy-paste components for Angular.
+      tags:
+      - free
+      - angular
+    - name: PrimeNG
+      url: https://primeng.org
+      desc: Large Angular component suite.
+      tags:
+      - free
+      - angular
+    - name: NG-ZORRO
+      url: https://ng.ant.design
+      desc: Ant Design for Angular.
+      tags:
+      - free
+      - angular
+    - name: Taiga UI
+      url: https://taiga-ui.dev
+      desc: Modular Angular UI kit.
+      tags:
+      - free
+      - angular
+  - title: Solid
+    items:
+    - name: Kobalte
+      url: https://kobalte.dev
+      desc: Headless primitives (see above).
+    - name: Ark UI for Solid
+      url: https://ark-ui.com
+      desc: Headless components with Solid bindings.
+      tags:
+      - free
+  - title: Web Components
+    items:
+    - name: Web Awesome
+      url: https://webawesome.com
+      desc: Successor to Shoelace; framework-agnostic components.
+      tags:
+      - free
+      - paid
+      - any
+    - name: Lit
+      url: https://lit.dev
+      desc: Simple, fast library for building web components.
+      tags:
+      - free
+      - any
+    - name: Spectrum Web Components
+      url: https://opensource.adobe.com/spectrum-web-components/
+      desc: Adobe Spectrum as web components.
+      tags:
+      - free
+      - any
+    - name: Ionic
+      url: https://ionicframework.com
+      desc: Mobile-first UI components for the web.
+      tags:
+      - free
+      - any
+- title: Motion & Animation
+  groups:
+  - title: Animation Engines
+    items:
+    - name: Motion
+      url: https://motion.dev
+      desc: Formerly Framer Motion; hybrid WAAPI/JS engine for React, Vue and vanilla JS (layout, gestures, springs).
+      tags:
+      - free
+      - any
+    - name: GSAP
+      url: https://gsap.com
+      desc: Industry-standard timeline engine; all plugins (ScrollTrigger, SplitText, MorphSVG, Flip) now free.
+      tags:
+      - free
+      - any
+      refs:
+      - title: Showcase
+        url: https://gsap.com/showcase/
+    - name: Anime.js
+      url: https://animejs.com
+      desc: Lightweight, modular engine with timelines, draggables and scroll observers.
+      tags:
+      - free
+      - any
+    - name: React Spring
+      url: https://www.react-spring.dev
+      desc: Spring-physics animation for React.
+      tags:
+      - free
+      - react
+    - name: AutoAnimate
+      url: https://auto-animate.formkit.com
+      desc: Zero-config, drop-in list/layout animations.
+      tags:
+      - free
+      - any
+    - name: Theatre.js
+      url: https://www.theatrejs.com
+      desc: Visual timeline editor for motion design in code (great with Three.js).
+      tags:
+      - free
+      - any
+    - name: Svelte Motion & Transitions
+      url: https://svelte.dev/docs/svelte/transition
+      desc: Built-in Svelte transitions, tweens and springs.
+      tags:
+      - free
+      - svelte
+    - name: Motion for Vue
+      url: https://motion.dev/docs/vue
+      desc: Motion's Vue API.
+      tags:
+      - free
+      - vue
+  - title: Scroll & Smooth Scrolling
+    items:
+    - name: GSAP ScrollTrigger
+      url: https://gsap.com/docs/v3/Plugins/ScrollTrigger/
+      desc: Scroll-linked and pinned animations.
+      tags:
+      - free
+      - any
+    - name: Lenis
+      url: https://lenis.darkroom.engineering
+      desc: Lightweight smooth scrolling.
+      tags:
+      - free
+      - any
+    - name: Locomotive Scroll
+      url: https://scroll.locomotive.ca
+      desc: Scroll detection with parallax.
+      tags:
+      - free
+      - any
+    - name: AOS
+      url: https://michalsnik.github.io/aos/
+      desc: Animate-on-scroll classic.
+      tags:
+      - free
+      - any
+  - title: Page & Route Transitions
+    items:
+    - name: View Transitions API
+      url: https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API
+      desc: Native animated transitions between DOM states and pages.
+      tags:
+      - free
+      - any
+      noshot: true
+    - name: Barba.js
+      url: https://barba.js.org
+      desc: Fluid transitions for multi-page sites.
+      tags:
+      - free
+      - any
+    - name: Swup
+      url: https://swup.js.org
+      desc: Page transition library with plugins.
+      tags:
+      - free
+      - any
+  - title: Designer-Authored Animation
+    items:
+    - name: Rive
+      url: https://rive.app
+      desc: Interactive, state-machine-driven vector animations with tiny runtimes.
+      tags:
+      - free
+      - paid
+      - any
+    - name: Lottie
+      url: https://airbnb.io/lottie/
+      desc: Render After Effects animations exported as JSON.
+      tags:
+      - free
+      - any
+    - name: LottieFiles / dotLottie
+      url: https://lottiefiles.com
+      desc: Lottie tooling, marketplace and dotLottie players.
+      tags:
+      - free
+      - paid
+      - any
+    - name: Spline
+      url: https://spline.design
+      desc: Collaborative 3D design tool with web embeds.
+      tags:
+      - free
+      - paid
+      - any
+    - name: Unicorn Studio
+      url: https://www.unicorn.studio
+      desc: No-code WebGL effects and backgrounds.
+      tags:
+      - free
+      - paid
+      - any
+  - title: Text & Number Effects
+    items:
+    - name: GSAP SplitText
+      url: https://gsap.com/docs/v3/Plugins/SplitText/
+      desc: Split text into chars/words/lines for animation.
+      tags:
+      - free
+      - any
+    - name: Splitting.js
+      url: https://splitting.js.org
+      desc: CSS-variable-based text splitting.
+      tags:
+      - free
+      - any
+    - name: NumberFlow
+      url: https://number-flow.barvian.me
+      desc: Animated number transitions.
+      tags:
+      - free
+      - any
+    - name: Typed.js
+      url: https://github.com/mattboldt/typed.js
+      desc: Typewriter effect.
+      tags:
+      - free
+      - any
+  - title: Carousels & Gestures
+    items:
+    - name: Embla Carousel
+      url: https://www.embla-carousel.com
+      desc: Lightweight, extensible carousel engine.
+      tags:
+      - free
+      - any
+    - name: Swiper
+      url: https://swiperjs.com
+      desc: Touch slider with many effects.
+      tags:
+      - free
+      - any
+    - name: '@use-gesture'
+      url: https://use-gesture.netlify.app
+      desc: Drag, pinch, scroll and hover gestures.
+      tags:
+      - free
+      - react
+- title: 3D, WebGL & Creative Coding
+  groups:
+  - items:
+    - name: Three.js
+      url: https://threejs.org
+      desc: The standard 3D library for the web (WebGL & WebGPU).
+      tags:
+      - free
+      - any
+      refs:
+      - title: Examples
+        url: https://threejs.org/examples/
+    - name: React Three Fiber
+      url: https://r3f.docs.pmnd.rs
+      desc: React renderer for Three.js.
+      tags:
+      - free
+      - react
+    - name: Drei
+      url: https://drei.docs.pmnd.rs
+      desc: Helpers and abstractions for R3F.
+      tags:
+      - free
+      - react
+    - name: TresJS
+      url: https://tresjs.org
+      desc: Declarative Three.js for Vue.
+      tags:
+      - free
+      - vue
+    - name: Threlte
+      url: https://threlte.xyz
+      desc: Three.js for Svelte.
+      tags:
+      - free
+      - svelte
+    - name: Babylon.js
+      url: https://www.babylonjs.com
+      desc: Full-featured 3D engine.
+      tags:
+      - free
+      - any
+    - name: PlayCanvas
+      url: https://playcanvas.com
+      desc: WebGL/WebGPU engine and editor.
+      tags:
+      - free
+      - paid
+      - any
+    - name: OGL
+      url: https://github.com/oframe/ogl
+      desc: Minimal WebGL library.
+      tags:
+      - free
+      - any
+    - name: PixiJS
+      url: https://pixijs.com
+      desc: Fast 2D renderer for interactive graphics.
+      tags:
+      - free
+      - any
+    - name: p5.js
+      url: https://p5js.org
+      desc: Creative coding for artists and designers.
+      tags:
+      - free
+      - any
+    - name: Matter.js
+      url: https://brm.io/matter-js/
+      desc: 2D physics engine.
+      tags:
+      - free
+      - any
+    - name: Rough.js
+      url: https://roughjs.com
+      desc: Hand-drawn, sketchy graphics.
+      tags:
+      - free
+      - any
+- title: Charts & Data Visualization
+  groups:
+  - items:
+    - name: Recharts
+      url: https://recharts.org
+      desc: Composable React charts (powers shadcn charts).
+      tags:
+      - free
+      - react
+    - name: Apache ECharts
+      url: https://echarts.apache.org
+      desc: Powerful, interactive charting.
+      tags:
+      - free
+      - any
+    - name: D3
+      url: https://d3js.org
+      desc: Low-level data visualization toolkit.
+      tags:
+      - free
+      - any
+    - name: Observable Plot
+      url: https://observablehq.com/plot/
+      desc: Concise exploratory charts.
+      tags:
+      - free
+      - any
+    - name: visx
+      url: https://airbnb.io/visx
+      desc: Low-level React visualization primitives.
+      tags:
+      - free
+      - react
+    - name: Nivo
+      url: https://nivo.rocks
+      desc: Rich React chart components.
+      tags:
+      - free
+      - react
+    - name: Chart.js
+      url: https://www.chartjs.org
+      desc: Simple canvas charts.
+      tags:
+      - free
+      - any
+    - name: React Flow / Svelte Flow
+      url: https://reactflow.dev
+      desc: Node-based UIs, diagrams and editors.
+      tags:
+      - free
+      - paid
+      - react
+      - svelte
+- title: Icons
+  groups:
+  - items:
+    - name: Lucide
+      url: https://lucide.dev
+      desc: Clean, consistent open-source icons (shadcn default).
+      tags:
+      - free
+      - any
+    - name: Heroicons
+      url: https://heroicons.com
+      desc: From the Tailwind team.
+      tags:
+      - free
+      - any
+    - name: Phosphor
+      url: https://phosphoricons.com
+      desc: Flexible family with six weights.
+      tags:
+      - free
+      - any
+    - name: Tabler Icons
+      url: https://tabler.io/icons
+      desc: 5000+ stroke icons.
+      tags:
+      - free
+      - any
+    - name: Material Symbols
+      url: https://fonts.google.com/icons
+      desc: Google's variable icon font.
+      tags:
+      - free
+      - any
+    - name: Hugeicons
+      url: https://hugeicons.com
+      desc: Large icon set with free tier.
+      tags:
+      - free
+      - paid
+      - any
+    - name: Iconify
+      url: https://iconify.design
+      desc: One API for 200k+ icons from many sets.
+      tags:
+      - free
+      - any
+- title: Fonts
+  groups:
+  - items:
+    - name: Google Fonts
+      url: https://fonts.google.com
+      desc: Free web fonts.
+      tags:
+      - free
+    - name: Fontsource
+      url: https://fontsource.org
+      desc: Self-host open-source fonts via npm.
+      tags:
+      - free
+    - name: Inter
+      url: https://rsms.me/inter/
+      desc: Typeface designed for screens.
+      tags:
+      - free
+    - name: Geist
+      url: https://vercel.com/font
+      desc: Vercel's sans and mono typeface.
+      tags:
+      - free
+- title: Color, Tokens & Theming
+  groups:
+  - items:
+    - name: Design Tokens Community Group
+      url: https://www.designtokens.org
+      desc: W3C spec for interoperable tokens.
+      tags:
+      - free
+    - name: Style Dictionary
+      url: https://styledictionary.com
+      desc: Transform tokens into any platform's format.
+      tags:
+      - free
+    - name: Tokens Studio
+      url: https://tokens.studio
+      desc: Manage tokens in Figma and sync to code.
+      tags:
+      - free
+      - paid
+    - name: Radix Colors
+      url: https://www.radix-ui.com/colors
+      desc: Accessible color scales with dark mode.
+      tags:
+      - free
+    - name: Leonardo
+      url: https://leonardocolor.io
+      desc: Adobe's contrast-based color generator.
+      tags:
+      - free
+    - name: Realtime Colors
+      url: https://www.realtimecolors.com
+      desc: Preview palettes on a real layout.
+      tags:
+      - free
+    - name: Utopia
+      url: https://utopia.fyi
+      desc: Fluid type and space scales.
+      tags:
+      - free
+- title: Specialized Interactive Components
+  groups:
+  - items:
+    - name: cmdk
+      url: https://cmdk.paco.me
+      desc: Fast command menu (⌘K).
+      tags:
+      - free
+      - react
+    - name: Sonner
+      url: https://sonner.emilkowal.ski
+      desc: Opinionated toast notifications.
+      tags:
+      - free
+      - react
+    - name: dnd kit
+      url: https://dndkit.com
+      desc: Drag-and-drop toolkit for React.
+      tags:
+      - free
+      - react
+    - name: Tiptap
+      url: https://tiptap.dev
+      desc: Headless rich-text editor framework.
+      tags:
+      - free
+      - paid
+      - any
+    - name: Lexical
+      url: https://lexical.dev
+      desc: Meta's extensible text editor.
+      tags:
+      - free
+      - any
+    - name: AG Grid
+      url: https://www.ag-grid.com
+      desc: Enterprise data grid.
+      tags:
+      - free
+      - paid
+      - any
+    - name: FullCalendar
+      url: https://fullcalendar.io
+      desc: Calendar component.
+      tags:
+      - free
+      - paid
+      - any
+    - name: tldraw
+      url: https://tldraw.dev
+      desc: Infinite canvas SDK.
+      tags:
+      - paid
+      - react
+    - name: Excalidraw
+      url: https://github.com/excalidraw/excalidraw
+      desc: Embeddable hand-drawn whiteboard.
+      tags:
+      - free
+      - react
+- title: Tooling & Workflow
+  groups:
+  - items:
+    - name: Storybook
+      url: https://storybook.js.org
+      desc: Build, document and test components in isolation.
+      tags:
+      - free
+      - any
+    - name: Ladle
+      url: https://ladle.dev
+      desc: Fast Vite-based Storybook alternative.
+      tags:
+      - free
+      - react
+    - name: Chromatic
+      url: https://www.chromatic.com
+      desc: Visual regression testing for Storybook.
+      tags:
+      - free
+      - paid
+    - name: Figma
+      url: https://www.figma.com
+      desc: Design and prototyping.
+      tags:
+      - free
+      - paid
+    - name: Penpot
+      url: https://penpot.app
+      desc: Open-source design tool.
+      tags:
+      - free
+    - name: Framer
+      url: https://www.framer.com
+      desc: Design and publish interactive sites.
+      tags:
+      - free
+      - paid
+    - name: axe DevTools
+      url: https://www.deque.com/axe/
+      desc: Accessibility testing.
+      tags:
+      - free
+      - paid
+- title: Native Web Platform APIs
+  groups:
+  - intro: Ship motion and interactivity with zero dependencies.
+    items:
+    - name: View Transitions
+      url: https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API
+      desc: Animated state and page transitions.
+      noshot: true
+    - name: Scroll-driven animations
+      url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations
+      desc: Link CSS animations to scroll position.
+      noshot: true
+    - name: Web Animations API
+      url: https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API
+      desc: JS control of CSS-grade animations.
+      noshot: true
+    - name: Popover API
+      url: https://developer.mozilla.org/en-US/docs/Web/API/Popover_API
+      desc: Native popovers and menus.
+      noshot: true
+    - name: CSS Anchor Positioning
+      url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning
+      desc: Tether elements without JS.
+      noshot: true
+    - name: Container Queries
+      url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries
+      desc: Components that respond to their container.
+      noshot: true
+    - name: '`prefers-reduced-motion`'
+      url: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+      desc: Always respect it.
+      noshot: true
+- title: Inspiration & Galleries
+  groups:
+  - items:
+    - name: Awwwards
+      url: https://www.awwwards.com
+      desc: Award-winning web design.
+    - name: Godly
+      url: https://godly.website
+      desc: Astronomically good web design inspiration.
+    - name: Mobbin
+      url: https://mobbin.com
+      desc: Real-world app UI patterns.
+      tags:
+      - paid
+    - name: Land-book
+      url: https://land-book.com
+      desc: Landing page gallery.
+    - name: Codrops
+      url: https://tympanus.net/codrops/
+      desc: Creative frontend tutorials and demos.
+    - name: Dribbble
+      url: https://dribbble.com
+      desc: Designer showcase.
+- title: Learning Resources
+  groups:
+  - items:
+    - name: animations.dev
+      url: https://animations.dev
+      desc: Emil Kowalski's course on web animation craft.
+      tags:
+      - paid
+    - name: Josh W. Comeau
+      url: https://www.joshwcomeau.com
+      desc: Deep, interactive CSS and React articles.
+    - name: Refactoring UI
+      url: https://www.refactoringui.com
+      desc: Practical design tactics for developers.
+      tags:
+      - paid
+    - name: Laws of UX
+      url: https://lawsofux.com
+      desc: Psychology principles for interface design.
+    - name: WAI-ARIA Authoring Practices
+      url: https://www.w3.org/WAI/ARIA/apg/
+      desc: Accessible widget patterns.
+    - name: Inclusive Components
+      url: https://inclusive-components.design
+      desc: Accessible component patterns explained.
+    - name: web.dev Learn CSS
+      url: https://web.dev/learn/css
+      desc: Modern CSS from the Chrome team.

@@ -1,0 +1,19 @@
+name: Check
+
+on:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Validate data/list.yml builds cleanly
+        run: node scripts/build.mjs
+      # README and gallery are regenerated on main by the Screenshots workflow,
+      # so contributors only need to edit data/list.yml or add files under refs/.

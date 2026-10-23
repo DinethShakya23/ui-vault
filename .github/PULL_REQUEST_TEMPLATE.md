@@ -11,3 +11,5 @@
 - [ ] Description is short, factual, and ends with a period
 - [ ] Legend tags added (🆓 / 💎 / framework)
 - [ ] Project is actively maintained and links to its official site
+- [ ] Edited `data/list.yml` / `refs/` only (README and gallery are generated)
+- [ ] Any reference files are mine or credited with a `source`, and contain no personal data
