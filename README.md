@@ -152,8 +152,6 @@ Big companies' design systems, most with real code you can install. Even if you 
 </tr>
 </table>
 
-<sub>[🖼️ Open the Design Systems gallery](gallery/design-systems.md)</sub>
-
 ---
 
 ## Styling Foundations
@@ -220,8 +218,6 @@ How you actually write your CSS. Pick one of these first, everything else sits o
 </td>
 </tr>
 </table>
-
-<sub>[🖼️ Open the Styling Foundations gallery](gallery/styling-foundations.md)</sub>
 
 ---
 
@@ -306,8 +302,6 @@ Accessible components with no styling at all. This is the layer you build your o
 </td>
 </tr>
 </table>
-
-<sub>[🖼️ Open the Headless Primitives gallery](gallery/headless-primitives.md)</sub>
 
 ---
 
@@ -669,8 +663,6 @@ Components that are mostly about the animation. Great for landing pages, easy to
 </tr>
 </table>
 
-<sub>[🖼️ Open the Component Libraries gallery](gallery/component-libraries.md)</sub>
-
 ---
 
 ## Motion & Animation
@@ -863,8 +855,6 @@ For when things need to move. Most projects only need one animation engine, so d
 </tr>
 </table>
 
-<sub>[🖼️ Open the Motion & Animation gallery](gallery/motion-animation.md)</sub>
-
 ---
 
 ## 3D, WebGL & Creative Coding
@@ -942,8 +932,6 @@ The fun stuff. Expect a learning curve.
 </tr>
 </table>
 
-<sub>[🖼️ Open the 3D, WebGL & Creative Coding gallery](gallery/3d-webgl-creative-coding.md)</sub>
-
 ---
 
 ## Charts & Data Visualization
@@ -998,8 +986,6 @@ From "I need a bar chart by Friday" to fully custom visualizations.
 </tr>
 </table>
 
-<sub>[🖼️ Open the Charts & Data Visualization gallery](gallery/charts-data-visualization.md)</sub>
-
 ---
 
 ## Icons
@@ -1050,8 +1036,6 @@ Pick one set and stick with it. Mixing icon sets is the fastest way to make a UI
 </tr>
 </table>
 
-<sub>[🖼️ Open the Icons gallery](gallery/icons.md)</sub>
-
 ---
 
 ## Fonts
@@ -1084,8 +1068,6 @@ Where I go to find and load fonts.
 </td>
 </tr>
 </table>
-
-<sub>[🖼️ Open the Fonts gallery](gallery/fonts.md)</sub>
 
 ---
 
@@ -1136,8 +1118,6 @@ Palettes, design tokens and tools for getting light and dark mode right.
 </td>
 </tr>
 </table>
-
-<sub>[🖼️ Open the Color, Tokens & Theming gallery](gallery/color-tokens-theming.md)</sub>
 
 ---
 
@@ -1198,8 +1178,6 @@ The hard components you really don't want to build yourself: data grids, editors
 </tr>
 </table>
 
-<sub>[🖼️ Open the Specialized Interactive Components gallery](gallery/specialized-interactive-components.md)</sub>
-
 ---
 
 ## Tooling & Workflow
@@ -1250,8 +1228,6 @@ Not UI libraries exactly, but they make building and documenting UI a lot less p
 </tr>
 </table>
 
-<sub>[🖼️ Open the Tooling & Workflow gallery](gallery/tooling-workflow.md)</sub>
-
 ---
 
 ## Native Web Platform APIs
@@ -1295,8 +1271,6 @@ You might not need a library at all. Browsers can do a lot of this on their own 
 </tr>
 </table>
 
-<sub>[🖼️ Open the Native Web Platform APIs gallery](gallery/native-web-platform-apis.md)</sub>
-
 ---
 
 ## Inspiration & Galleries
@@ -1339,8 +1313,6 @@ When I'm stuck on a design, I scroll through these for a while.
 </td>
 </tr>
 </table>
-
-<sub>[🖼️ Open the Inspiration & Galleries gallery](gallery/inspiration-galleries.md)</sub>
 
 ---
 
@@ -1390,8 +1362,6 @@ Sites and people I've learned the most from.
 </td>
 </tr>
 </table>
-
-<sub>[🖼️ Open the Learning Resources gallery](gallery/learning-resources.md)</sub>
 
 ---
 
