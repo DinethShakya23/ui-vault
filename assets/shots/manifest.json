@@ -1,0 +1,738 @@
+{
+  "21st-dev": {
+    "url": "https://21st.dev",
+    "captured": "2026-10-23"
+  },
+  "airbnb-io-lottie": {
+    "url": "https://airbnb.io/lottie/",
+    "captured": "2026-10-23"
+  },
+  "airbnb-io-visx": {
+    "url": "https://airbnb.io/visx",
+    "captured": "2026-10-23"
+  },
+  "animata-design": {
+    "url": "https://animata.design",
+    "captured": "2026-10-23"
+  },
+  "animate-ui-com": {
+    "url": "https://animate-ui.com",
+    "captured": "2026-10-23"
+  },
+  "animations-dev": {
+    "url": "https://animations.dev",
+    "captured": "2026-10-23"
+  },
+  "animejs-com": {
+    "url": "https://animejs.com",
+    "captured": "2026-10-23"
+  },
+  "ant-design": {
+    "url": "https://ant.design",
+    "captured": "2026-10-23"
+  },
+  "ariakit-org": {
+    "url": "https://ariakit.org",
+    "captured": "2026-10-23"
+  },
+  "ark-ui-com": {
+    "url": "https://ark-ui.com",
+    "captured": "2026-10-23"
+  },
+  "atlassian-design": {
+    "url": "https://atlassian.design",
+    "captured": "2026-10-23"
+  },
+  "auto-animate-formkit-com": {
+    "url": "https://auto-animate.formkit.com",
+    "captured": "2026-10-23"
+  },
+  "awwwards-com": {
+    "url": "https://www.awwwards.com",
+    "captured": "2026-10-23"
+  },
+  "babylonjs-com": {
+    "url": "https://www.babylonjs.com",
+    "captured": "2026-10-23"
+  },
+  "barba-js-org": {
+    "url": "https://barba.js.org",
+    "captured": "2026-10-23"
+  },
+  "base-ui-com": {
+    "url": "https://base-ui.com",
+    "captured": "2026-10-23"
+  },
+  "baseweb-design": {
+    "url": "https://baseweb.design",
+    "captured": "2026-10-23"
+  },
+  "bits-ui-com": {
+    "url": "https://bits-ui.com",
+    "captured": "2026-10-23"
+  },
+  "blueprintjs-com": {
+    "url": "https://blueprintjs.com",
+    "captured": "2026-10-23"
+  },
+  "brm-io-matter-js": {
+    "url": "https://brm.io/matter-js/",
+    "captured": "2026-10-23"
+  },
+  "bulma-io": {
+    "url": "https://bulma.io",
+    "captured": "2026-10-23"
+  },
+  "carbondesignsystem-com": {
+    "url": "https://carbondesignsystem.com",
+    "captured": "2026-10-23"
+  },
+  "chakra-ui-com": {
+    "url": "https://chakra-ui.com",
+    "captured": "2026-10-23"
+  },
+  "chartjs-org": {
+    "url": "https://www.chartjs.org",
+    "captured": "2026-10-23"
+  },
+  "chromatic-com": {
+    "url": "https://www.chromatic.com",
+    "captured": "2026-10-23"
+  },
+  "cmdk-paco-me": {
+    "url": "https://cmdk.paco.me",
+    "captured": "2026-10-23"
+  },
+  "cult-ui-com": {
+    "url": "https://www.cult-ui.com",
+    "captured": "2026-10-23"
+  },
+  "d3js-org": {
+    "url": "https://d3js.org",
+    "captured": "2026-10-23"
+  },
+  "daisyui-com": {
+    "url": "https://daisyui.com",
+    "captured": "2026-10-23"
+  },
+  "deque-com-axe": {
+    "url": "https://www.deque.com/axe/",
+    "captured": "2026-10-23"
+  },
+  "design-system-service-gov-uk": {
+    "url": "https://design-system.service.gov.uk",
+    "captured": "2026-10-23"
+  },
+  "designsystem-digital-gov": {
+    "url": "https://designsystem.digital.gov",
+    "captured": "2026-10-23"
+  },
+  "designtokens-org": {
+    "url": "https://www.designtokens.org",
+    "captured": "2026-10-23"
+  },
+  "developer-apple-com-design-human-interface-guidelines": {
+    "url": "https://developer.apple.com/design/human-interface-guidelines",
+    "captured": "2026-10-23"
+  },
+  "dndkit-com": {
+    "url": "https://dndkit.com",
+    "captured": "2026-10-23"
+  },
+  "drei-docs-pmnd-rs": {
+    "url": "https://drei.docs.pmnd.rs",
+    "captured": "2026-10-23"
+  },
+  "dribbble-com": {
+    "url": "https://dribbble.com",
+    "captured": "2026-10-23"
+  },
+  "echarts-apache-org": {
+    "url": "https://echarts.apache.org",
+    "captured": "2026-10-23"
+  },
+  "eldoraui-site": {
+    "url": "https://www.eldoraui.site",
+    "captured": "2026-10-23"
+  },
+  "element-plus-org": {
+    "url": "https://element-plus.org",
+    "captured": "2026-10-23"
+  },
+  "embla-carousel-com": {
+    "url": "https://www.embla-carousel.com",
+    "captured": "2026-10-23"
+  },
+  "eui-elastic-co": {
+    "url": "https://eui.elastic.co",
+    "captured": "2026-10-23"
+  },
+  "figma-com": {
+    "url": "https://www.figma.com",
+    "captured": "2026-10-23"
+  },
+  "floating-ui-com": {
+    "url": "https://floating-ui.com",
+    "captured": "2026-10-23"
+  },
+  "flowbite-com": {
+    "url": "https://flowbite.com",
+    "captured": "2026-10-23"
+  },
+  "fluent2-microsoft-design": {
+    "url": "https://fluent2.microsoft.design",
+    "captured": "2026-10-23"
+  },
+  "fonts-google-com": {
+    "url": "https://fonts.google.com",
+    "captured": "2026-10-23"
+  },
+  "fonts-google-com-icons": {
+    "url": "https://fonts.google.com/icons",
+    "captured": "2026-10-23"
+  },
+  "fontsource-org": {
+    "url": "https://fontsource.org",
+    "captured": "2026-10-23"
+  },
+  "framer-com": {
+    "url": "https://www.framer.com",
+    "captured": "2026-10-23"
+  },
+  "fullcalendar-io": {
+    "url": "https://fullcalendar.io",
+    "captured": "2026-10-23"
+  },
+  "gestalt-pinterest-systems": {
+    "url": "https://gestalt.pinterest.systems",
+    "captured": "2026-10-23"
+  },
+  "getbootstrap-com": {
+    "url": "https://getbootstrap.com",
+    "captured": "2026-10-23"
+  },
+  "github-com-excalidraw-excalidraw": {
+    "url": "https://github.com/excalidraw/excalidraw",
+    "captured": "2026-10-23"
+  },
+  "github-com-mattboldt-typed-js": {
+    "url": "https://github.com/mattboldt/typed.js",
+    "captured": "2026-10-23"
+  },
+  "github-com-oframe-ogl": {
+    "url": "https://github.com/oframe/ogl",
+    "captured": "2026-10-23"
+  },
+  "godly-website": {
+    "url": "https://godly.website",
+    "captured": "2026-10-23"
+  },
+  "gsap-com": {
+    "url": "https://gsap.com",
+    "captured": "2026-10-23"
+  },
+  "gsap-com-docs-v3-plugins-scrolltrigger": {
+    "url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/",
+    "captured": "2026-10-23"
+  },
+  "gsap-com-docs-v3-plugins-splittext": {
+    "url": "https://gsap.com/docs/v3/Plugins/SplitText/",
+    "captured": "2026-10-23"
+  },
+  "gsap-com-showcase": {
+    "url": "https://gsap.com/showcase/",
+    "captured": "2026-10-23"
+  },
+  "headlessui-com": {
+    "url": "https://headlessui.com",
+    "captured": "2026-10-23"
+  },
+  "heroicons-com": {
+    "url": "https://heroicons.com",
+    "captured": "2026-10-23"
+  },
+  "heroui-com": {
+    "url": "https://heroui.com",
+    "captured": "2026-10-23"
+  },
+  "hugeicons-com": {
+    "url": "https://hugeicons.com",
+    "captured": "2026-10-23"
+  },
+  "hyperui-dev": {
+    "url": "https://www.hyperui.dev",
+    "captured": "2026-10-23"
+  },
+  "iconify-design": {
+    "url": "https://iconify.design",
+    "captured": "2026-10-23"
+  },
+  "inclusive-components-design": {
+    "url": "https://inclusive-components.design",
+    "captured": "2026-10-23"
+  },
+  "inspira-ui-com": {
+    "url": "https://inspira-ui.com",
+    "captured": "2026-10-23"
+  },
+  "ionicframework-com": {
+    "url": "https://ionicframework.com",
+    "captured": "2026-10-23"
+  },
+  "joshwcomeau-com": {
+    "url": "https://www.joshwcomeau.com",
+    "captured": "2026-10-23"
+  },
+  "kibo-ui-com": {
+    "url": "https://www.kibo-ui.com",
+    "captured": "2026-10-23"
+  },
+  "kobalte-dev": {
+    "url": "https://kobalte.dev",
+    "captured": "2026-10-23"
+  },
+  "kokonutui-com": {
+    "url": "https://kokonutui.com",
+    "captured": "2026-10-23"
+  },
+  "ladle-dev": {
+    "url": "https://ladle.dev",
+    "captured": "2026-10-23"
+  },
+  "land-book-com": {
+    "url": "https://land-book.com",
+    "captured": "2026-10-23"
+  },
+  "lawsofux-com": {
+    "url": "https://lawsofux.com",
+    "captured": "2026-10-23"
+  },
+  "lenis-darkroom-engineering": {
+    "url": "https://lenis.darkroom.engineering",
+    "captured": "2026-10-23"
+  },
+  "leonardocolor-io": {
+    "url": "https://leonardocolor.io",
+    "captured": "2026-10-23"
+  },
+  "lexical-dev": {
+    "url": "https://lexical.dev",
+    "captured": "2026-10-23"
+  },
+  "lightningdesignsystem-com": {
+    "url": "https://www.lightningdesignsystem.com",
+    "captured": "2026-10-23"
+  },
+  "lit-dev": {
+    "url": "https://lit.dev",
+    "captured": "2026-10-23"
+  },
+  "lottiefiles-com": {
+    "url": "https://lottiefiles.com",
+    "captured": "2026-10-23"
+  },
+  "lucide-dev": {
+    "url": "https://lucide.dev",
+    "captured": "2026-10-23"
+  },
+  "m3-material-io": {
+    "url": "https://m3.material.io",
+    "captured": "2026-10-23"
+  },
+  "magicui-design": {
+    "url": "https://magicui.design",
+    "captured": "2026-10-23"
+  },
+  "magicui-design-docs-components": {
+    "url": "https://magicui.design/docs/components",
+    "captured": "2026-10-23"
+  },
+  "mantine-dev": {
+    "url": "https://mantine.dev",
+    "captured": "2026-10-23"
+  },
+  "material-angular-dev": {
+    "url": "https://material.angular.dev",
+    "captured": "2026-10-23"
+  },
+  "melt-ui-com": {
+    "url": "https://melt-ui.com",
+    "captured": "2026-10-23"
+  },
+  "michalsnik-github-io-aos": {
+    "url": "https://michalsnik.github.io/aos/",
+    "captured": "2026-10-23"
+  },
+  "mobbin-com": {
+    "url": "https://mobbin.com",
+    "captured": "2026-10-23"
+  },
+  "motion-dev": {
+    "url": "https://motion.dev",
+    "captured": "2026-10-23"
+  },
+  "motion-dev-docs-vue": {
+    "url": "https://motion.dev/docs/vue",
+    "captured": "2026-10-23"
+  },
+  "motion-primitives-com": {
+    "url": "https://motion-primitives.com",
+    "captured": "2026-10-23"
+  },
+  "mui-com": {
+    "url": "https://mui.com",
+    "captured": "2026-10-23"
+  },
+  "naiveui-com": {
+    "url": "https://www.naiveui.com",
+    "captured": "2026-10-23"
+  },
+  "ng-ant-design": {
+    "url": "https://ng.ant.design",
+    "captured": "2026-10-23"
+  },
+  "nivo-rocks": {
+    "url": "https://nivo.rocks",
+    "captured": "2026-10-23"
+  },
+  "number-flow-barvian-me": {
+    "url": "https://number-flow.barvian.me",
+    "captured": "2026-10-23"
+  },
+  "open-props-style": {
+    "url": "https://open-props.style",
+    "captured": "2026-10-23"
+  },
+  "opensource-adobe-com-spectrum-web-components": {
+    "url": "https://opensource.adobe.com/spectrum-web-components/",
+    "captured": "2026-10-23"
+  },
+  "originui-com": {
+    "url": "https://originui.com",
+    "captured": "2026-10-23"
+  },
+  "p5js-org": {
+    "url": "https://p5js.org",
+    "captured": "2026-10-23"
+  },
+  "panda-css-com": {
+    "url": "https://panda-css.com",
+    "captured": "2026-10-23"
+  },
+  "park-ui-com": {
+    "url": "https://park-ui.com",
+    "captured": "2026-10-23"
+  },
+  "penpot-app": {
+    "url": "https://penpot.app",
+    "captured": "2026-10-23"
+  },
+  "phosphoricons-com": {
+    "url": "https://phosphoricons.com",
+    "captured": "2026-10-23"
+  },
+  "picocss-com": {
+    "url": "https://picocss.com",
+    "captured": "2026-10-23"
+  },
+  "pixijs-com": {
+    "url": "https://pixijs.com",
+    "captured": "2026-10-23"
+  },
+  "playcanvas-com": {
+    "url": "https://playcanvas.com",
+    "captured": "2026-10-23"
+  },
+  "preline-co": {
+    "url": "https://preline.co",
+    "captured": "2026-10-23"
+  },
+  "primeng-org": {
+    "url": "https://primeng.org",
+    "captured": "2026-10-23"
+  },
+  "primer-style": {
+    "url": "https://primer.style",
+    "captured": "2026-10-23"
+  },
+  "primereact-org": {
+    "url": "https://primereact.org",
+    "captured": "2026-10-23"
+  },
+  "primevue-org": {
+    "url": "https://primevue.org",
+    "captured": "2026-10-23"
+  },
+  "quasar-dev": {
+    "url": "https://quasar.dev",
+    "captured": "2026-10-23"
+  },
+  "r3f-docs-pmnd-rs": {
+    "url": "https://r3f.docs.pmnd.rs",
+    "captured": "2026-10-23"
+  },
+  "radix-ui-com-colors": {
+    "url": "https://www.radix-ui.com/colors",
+    "captured": "2026-10-23"
+  },
+  "radix-ui-com-primitives": {
+    "url": "https://www.radix-ui.com/primitives",
+    "captured": "2026-10-23"
+  },
+  "react-fluentui-dev": {
+    "url": "https://react.fluentui.dev",
+    "captured": "2026-10-23"
+  },
+  "react-spectrum-adobe-com": {
+    "url": "https://react-spectrum.adobe.com",
+    "captured": "2026-10-23"
+  },
+  "react-spectrum-adobe-com-react-aria": {
+    "url": "https://react-spectrum.adobe.com/react-aria/",
+    "captured": "2026-10-23"
+  },
+  "react-spring-dev": {
+    "url": "https://www.react-spring.dev",
+    "captured": "2026-10-23"
+  },
+  "reactbits-dev": {
+    "url": "https://reactbits.dev",
+    "captured": "2026-10-23"
+  },
+  "reactbits-dev-text-animations-split-text": {
+    "url": "https://reactbits.dev/text-animations/split-text",
+    "captured": "2026-10-23"
+  },
+  "reactflow-dev": {
+    "url": "https://reactflow.dev",
+    "captured": "2026-10-23"
+  },
+  "realtimecolors-com": {
+    "url": "https://www.realtimecolors.com",
+    "captured": "2026-10-23"
+  },
+  "recharts-org": {
+    "url": "https://recharts.org",
+    "captured": "2026-10-23"
+  },
+  "refactoringui-com": {
+    "url": "https://www.refactoringui.com",
+    "captured": "2026-10-23"
+  },
+  "reka-ui-com": {
+    "url": "https://reka-ui.com",
+    "captured": "2026-10-23"
+  },
+  "rive-app": {
+    "url": "https://rive.app",
+    "captured": "2026-10-23"
+  },
+  "roughjs-com": {
+    "url": "https://roughjs.com",
+    "captured": "2026-10-23"
+  },
+  "rsms-me-inter": {
+    "url": "https://rsms.me/inter/",
+    "captured": "2026-10-23"
+  },
+  "scroll-locomotive-ca": {
+    "url": "https://scroll.locomotive.ca",
+    "captured": "2026-10-23"
+  },
+  "shadcn-svelte-com": {
+    "url": "https://www.shadcn-svelte.com",
+    "captured": "2026-10-23"
+  },
+  "shadcn-vue-com": {
+    "url": "https://www.shadcn-vue.com",
+    "captured": "2026-10-23"
+  },
+  "skeleton-dev": {
+    "url": "https://www.skeleton.dev",
+    "captured": "2026-10-23"
+  },
+  "skiper-ui-com": {
+    "url": "https://skiper-ui.com",
+    "captured": "2026-10-23"
+  },
+  "sonner-emilkowal-ski": {
+    "url": "https://sonner.emilkowal.ski",
+    "captured": "2026-10-23"
+  },
+  "spartan-ng": {
+    "url": "https://www.spartan.ng",
+    "captured": "2026-10-23"
+  },
+  "spectrum-adobe-com": {
+    "url": "https://spectrum.adobe.com",
+    "captured": "2026-10-23"
+  },
+  "spline-design": {
+    "url": "https://spline.design",
+    "captured": "2026-10-23"
+  },
+  "splitting-js-org": {
+    "url": "https://splitting.js.org",
+    "captured": "2026-10-23"
+  },
+  "storybook-js-org": {
+    "url": "https://storybook.js.org",
+    "captured": "2026-10-23"
+  },
+  "styledictionary-com": {
+    "url": "https://styledictionary.com",
+    "captured": "2026-10-23"
+  },
+  "stylexjs-com": {
+    "url": "https://stylexjs.com",
+    "captured": "2026-10-23"
+  },
+  "svelte-dev-docs-svelte-transition": {
+    "url": "https://svelte.dev/docs/svelte/transition",
+    "captured": "2026-10-23"
+  },
+  "swiperjs-com": {
+    "url": "https://swiperjs.com",
+    "captured": "2026-10-23"
+  },
+  "swup-js-org": {
+    "url": "https://swup.js.org",
+    "captured": "2026-10-23"
+  },
+  "tabler-io-icons": {
+    "url": "https://tabler.io/icons",
+    "captured": "2026-10-23"
+  },
+  "taiga-ui-dev": {
+    "url": "https://taiga-ui.dev",
+    "captured": "2026-10-23"
+  },
+  "tailwindcss-com": {
+    "url": "https://tailwindcss.com",
+    "captured": "2026-10-23"
+  },
+  "tanstack-com-table": {
+    "url": "https://tanstack.com/table",
+    "captured": "2026-10-23"
+  },
+  "theatrejs-com": {
+    "url": "https://www.theatrejs.com",
+    "captured": "2026-10-23"
+  },
+  "threejs-org": {
+    "url": "https://threejs.org",
+    "captured": "2026-10-23"
+  },
+  "threejs-org-examples": {
+    "url": "https://threejs.org/examples/",
+    "captured": "2026-10-23"
+  },
+  "threlte-xyz": {
+    "url": "https://threlte.xyz",
+    "captured": "2026-10-23"
+  },
+  "tiptap-dev": {
+    "url": "https://tiptap.dev",
+    "captured": "2026-10-23"
+  },
+  "tldraw-dev": {
+    "url": "https://tldraw.dev",
+    "captured": "2026-10-23"
+  },
+  "tokens-studio": {
+    "url": "https://tokens.studio",
+    "captured": "2026-10-23"
+  },
+  "tremor-so": {
+    "url": "https://tremor.so",
+    "captured": "2026-10-23"
+  },
+  "tresjs-org": {
+    "url": "https://tresjs.org",
+    "captured": "2026-10-23"
+  },
+  "tweakcn-com": {
+    "url": "https://tweakcn.com",
+    "captured": "2026-10-23"
+  },
+  "tympanus-net-codrops": {
+    "url": "https://tympanus.net/codrops/",
+    "captured": "2026-10-23"
+  },
+  "ui-aceternity-com": {
+    "url": "https://ui.aceternity.com",
+    "captured": "2026-10-23"
+  },
+  "ui-aceternity-com-components": {
+    "url": "https://ui.aceternity.com/components",
+    "captured": "2026-10-23"
+  },
+  "ui-nuxt-com": {
+    "url": "https://ui.nuxt.com",
+    "captured": "2026-10-23"
+  },
+  "ui-shadcn-com": {
+    "url": "https://ui.shadcn.com",
+    "captured": "2026-10-23"
+  },
+  "ui-shadcn-com-blocks": {
+    "url": "https://ui.shadcn.com/blocks",
+    "captured": "2026-10-23"
+  },
+  "ui-shadcn-com-charts": {
+    "url": "https://ui.shadcn.com/charts",
+    "captured": "2026-10-23"
+  },
+  "uiverse-io": {
+    "url": "https://uiverse.io",
+    "captured": "2026-10-23"
+  },
+  "unicorn-studio": {
+    "url": "https://www.unicorn.studio",
+    "captured": "2026-10-23"
+  },
+  "unocss-dev": {
+    "url": "https://unocss.dev",
+    "captured": "2026-10-23"
+  },
+  "untitledui-com-react": {
+    "url": "https://www.untitledui.com/react",
+    "captured": "2026-10-23"
+  },
+  "use-gesture-netlify-app": {
+    "url": "https://use-gesture.netlify.app",
+    "captured": "2026-10-23"
+  },
+  "utopia-fyi": {
+    "url": "https://utopia.fyi",
+    "captured": "2026-10-23"
+  },
+  "vanilla-extract-style": {
+    "url": "https://vanilla-extract.style",
+    "captured": "2026-10-23"
+  },
+  "vercel-com-font": {
+    "url": "https://vercel.com/font",
+    "captured": "2026-10-23"
+  },
+  "vercel-com-geist": {
+    "url": "https://vercel.com/geist",
+    "captured": "2026-10-23"
+  },
+  "vuetifyjs-com": {
+    "url": "https://vuetifyjs.com",
+    "captured": "2026-10-23"
+  },
+  "web-dev-learn-css": {
+    "url": "https://web.dev/learn/css",
+    "captured": "2026-10-23"
+  },
+  "webawesome-com": {
+    "url": "https://webawesome.com",
+    "captured": "2026-10-23"
+  },
+  "zagjs-com": {
+    "url": "https://zagjs.com",
+    "captured": "2026-10-23"
+  }
+}
