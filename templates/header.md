@@ -1,25 +1,26 @@
 # Awesome UI Stack [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated, **visual** map of UI libraries, component kits, motion frameworks, and design systems for building beautiful, interactive web applications.
+> UI libraries, component kits, animation tools, icons, fonts, design systems and more, all in one place.
 
-Every entry comes with a screenshot so you can judge the look before you click. Open any thumbnail to see the full-size capture plus extra references (component pages, animations, showcases, inspiration) in the **[Gallery](gallery/README.md)**, and browse the community **[Reference Board](gallery/board.md)** for anything else worth looking at.
+I started this list because I was tired of opening twenty tabs every time I needed a date picker or a scroll animation library, only to find half of them looked nothing like what I wanted. So every entry here has a screenshot of its site. If something catches your eye, click the thumbnail to see a bigger version in the **[Gallery](gallery/README.md)**, where some entries also have a few extra shots of their components or demos.
 
-**Legend:** 🆓 free / open source · 💎 paid tier or commercial product · ⚛️ React · 🟢 Vue · 🧡 Svelte · 🅰️ Angular · 🌐 framework-agnostic
+It's opinionated and it's not exhaustive. These are things I've used, tried, or bookmarked because they were good.
 
-> [!NOTE]
-> `README.md` and `gallery/` are generated from [`data/list.yml`](data/list.yml). Edit the data file, not the README. See [CONTRIBUTING.md](CONTRIBUTING.md).
+**What the icons mean:** 🆓 free / open source · 💎 paid or has a paid tier · ⚛️ React · 🟢 Vue · 🧡 Svelte · 🅰️ Angular · 🌐 works with anything
 
 ---
 
-## Quick Stack Recipes
+## Where I'd start
 
-| Goal | Suggested stack |
+Not sure what to pick? Here's what I'd reach for depending on the project.
+
+| Building... | I'd use |
 |---|---|
-| Modern SaaS app (React/Next.js) | Tailwind CSS + shadcn/ui (Radix or Base UI) + Motion + Lucide + Recharts |
-| Animated marketing / landing page | Tailwind + Magic UI / Aceternity UI / React Bits + GSAP ScrollTrigger + Lenis |
-| Enterprise / data-heavy dashboard | MUI or Ant Design + TanStack Table + ECharts |
-| Accessibility-first custom design system | React Aria Components + Style Dictionary + Storybook |
-| Immersive 3D experience | React Three Fiber + Drei + GSAP + Theatre.js |
-| Vue / Nuxt app | Nuxt UI or shadcn-vue (Reka UI) + Motion for Vue + Inspira UI |
-| SvelteKit app | shadcn-svelte (Bits UI) + Svelte transitions + Threlte |
-| Framework-agnostic | Web Awesome + Open Props + GSAP |
+| A modern SaaS app (React/Next.js) | Tailwind CSS + shadcn/ui (Radix or Base UI) + Motion + Lucide + Recharts |
+| A flashy landing page | Tailwind + Magic UI / Aceternity UI / React Bits + GSAP ScrollTrigger + Lenis |
+| A data-heavy enterprise dashboard | MUI or Ant Design + TanStack Table + ECharts |
+| A design system that has to be accessible | React Aria Components + Style Dictionary + Storybook |
+| Something 3D and immersive | React Three Fiber + Drei + GSAP + Theatre.js |
+| A Vue / Nuxt app | Nuxt UI or shadcn-vue (Reka UI) + Motion for Vue + Inspira UI |
+| A SvelteKit app | shadcn-svelte (Bits UI) + Svelte transitions + Threlte |
+| No framework at all | Web Awesome + Open Props + GSAP |

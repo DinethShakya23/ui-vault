@@ -12,15 +12,14 @@
 #   noshot                 true to skip the automatic screenshot
 #   refs                   more references for the gallery, any mix of:
 #                            {title, url}   captured automatically
-#                            {title, file}  a file you added under refs/  (png, jpg, webp, gif, svg, mp4, webm)
 #                            {title, link}  linked only (video, Dribbble shot, CodePen...)
-#   Files dropped into refs/<slug>/ are picked up automatically too (slug is printed by `npm run slugs`).
 
 sections:
 - title: Design Systems
+  intro: >-
+    Big companies' design systems, most with real code you can install. Even if you never use one, they're some of the best free design education out there.
   groups:
-  - intro: Public design systems with guidelines, tokens and (usually) code. Great to study or adopt.
-    items:
+  - items:
     - name: Material Design 3
       url: https://m3.material.io
       desc: Google's design system with dynamic color and expressive motion.
@@ -97,6 +96,8 @@ sections:
       tags:
       - free
 - title: Styling Foundations
+  intro: >-
+    How you actually write your CSS. Pick one of these first, everything else sits on top.
   groups:
   - items:
     - name: Tailwind CSS
@@ -161,7 +162,8 @@ sections:
       - any
 - title: Headless Primitives
   groups:
-  - intro: Unstyled, accessible building blocks — the layer you build your own design system on.
+  - intro: >-
+      Accessible components with no styling at all. This is the layer you build your own design system on, and it saves you from getting keyboard and screen reader support wrong.
     items:
     - name: Radix Primitives
       url: https://www.radix-ui.com/primitives
@@ -220,6 +222,7 @@ sections:
       - svelte
     - name: Melt UI
       url: https://melt-ui.com
+      wait: 4000
       desc: Headless builders for Svelte.
       tags:
       - free
@@ -247,6 +250,8 @@ sections:
       - free
       - any
 - title: Component Libraries
+  intro: >-
+    Ready-made components, grouped by framework. This is the biggest section, because there are a lot of good ones.
   groups:
   - title: React
     items:
@@ -326,7 +331,7 @@ sections:
       - paid
       - react
   - title: Copy-Paste & Registries (shadcn ecosystem)
-    intro: You copy the source into your project and own it.
+    intro: You don't install these, you copy the code into your project and it's yours to change.
     items:
     - name: shadcn/ui
       url: https://ui.shadcn.com
@@ -371,6 +376,7 @@ sections:
       - react
     - name: Tailwind Plus
       url: https://tailwindcss.com/plus
+      noshot: true
       desc: Official Tailwind UI blocks, templates and Catalyst kit.
       tags:
       - paid
@@ -397,7 +403,7 @@ sections:
       - free
       - any
   - title: Animated Component Collections
-    intro: Motion-first components for landing pages and delightful UIs.
+    intro: Components that are mostly about the animation. Great for landing pages, easy to overdo.
     items:
     - name: Magic UI
       url: https://magicui.design
@@ -538,6 +544,7 @@ sections:
       - svelte
     - name: Flowbite Svelte
       url: https://flowbite-svelte.com
+      noshot: true
       desc: Flowbite components for Svelte.
       tags:
       - free
@@ -612,6 +619,8 @@ sections:
       - free
       - any
 - title: Motion & Animation
+  intro: >-
+    For when things need to move. Most projects only need one animation engine, so don't install three.
   groups:
   - title: Animation Engines
     items:
@@ -796,6 +805,8 @@ sections:
       - free
       - react
 - title: 3D, WebGL & Creative Coding
+  intro: >-
+    The fun stuff. Expect a learning curve.
   groups:
   - items:
     - name: Three.js
@@ -875,6 +886,8 @@ sections:
       - free
       - any
 - title: Charts & Data Visualization
+  intro: >-
+    From "I need a bar chart by Friday" to fully custom visualizations.
   groups:
   - items:
     - name: Recharts
@@ -897,6 +910,7 @@ sections:
       - any
     - name: Observable Plot
       url: https://observablehq.com/plot/
+      noshot: true
       desc: Concise exploratory charts.
       tags:
       - free
@@ -928,6 +942,8 @@ sections:
       - react
       - svelte
 - title: Icons
+  intro: >-
+    Pick one set and stick with it. Mixing icon sets is the fastest way to make a UI look off.
   groups:
   - items:
     - name: Lucide
@@ -974,6 +990,8 @@ sections:
       - free
       - any
 - title: Fonts
+  intro: >-
+    Where I go to find and load fonts.
   groups:
   - items:
     - name: Google Fonts
@@ -997,6 +1015,8 @@ sections:
       tags:
       - free
 - title: Color, Tokens & Theming
+  intro: >-
+    Palettes, design tokens and tools for getting light and dark mode right.
   groups:
   - items:
     - name: Design Tokens Community Group
@@ -1036,6 +1056,8 @@ sections:
       tags:
       - free
 - title: Specialized Interactive Components
+  intro: >-
+    The hard components you really don't want to build yourself: data grids, editors, calendars, canvases.
   groups:
   - items:
     - name: cmdk
@@ -1071,6 +1093,7 @@ sections:
       - any
     - name: AG Grid
       url: https://www.ag-grid.com
+      noshot: true
       desc: Enterprise data grid.
       tags:
       - free
@@ -1096,6 +1119,8 @@ sections:
       - free
       - react
 - title: Tooling & Workflow
+  intro: >-
+    Not UI libraries exactly, but they make building and documenting UI a lot less painful.
   groups:
   - items:
     - name: Storybook
@@ -1141,7 +1166,7 @@ sections:
       - paid
 - title: Native Web Platform APIs
   groups:
-  - intro: Ship motion and interactivity with zero dependencies.
+  - intro: You might not need a library at all. Browsers can do a lot of this on their own now.
     items:
     - name: View Transitions
       url: https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API
@@ -1172,6 +1197,8 @@ sections:
       desc: Always respect it.
       noshot: true
 - title: Inspiration & Galleries
+  intro: >-
+    When I'm stuck on a design, I scroll through these for a while.
   groups:
   - items:
     - name: Awwwards
@@ -1195,6 +1222,8 @@ sections:
       url: https://dribbble.com
       desc: Designer showcase.
 - title: Learning Resources
+  intro: >-
+    Sites and people I've learned the most from.
   groups:
   - items:
     - name: animations.dev
@@ -1215,6 +1244,7 @@ sections:
       desc: Psychology principles for interface design.
     - name: WAI-ARIA Authoring Practices
       url: https://www.w3.org/WAI/ARIA/apg/
+      noshot: true
       desc: Accessible widget patterns.
     - name: Inclusive Components
       url: https://inclusive-components.design
